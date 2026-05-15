@@ -1,4 +1,6 @@
 # Dunai Roland Ede szakdolgozatának forráskódja
+A fájlok Visual Studio Code-ban lettek elkészítve
+
 merge_seasons.py: Egységesíti a 8 különböző szezon CSV-jét, amelyek mind eltérő formátumúak voltak.
 
 tisztitas.py: Sor szintű adattisztítást végez. Hozzáadja az MD5 hash-alapú player_id egyedi kulcsot, kiszűri a 750 percnél kevesebbet játszott játékosokat, megtisztítja a Nation oszlopot reguláris kifejezéssel, egységesíti a pozíció formátumot, és bajnokság/csapat/szezon szerint rendez.
